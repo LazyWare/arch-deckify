@@ -1,0 +1,38 @@
+# File: .gitignore
+# Project Path: /
+# Purpose: Exclude sensitive or generated files from version control
+
+# Release and configuration scripts
+release.sh
+generate-pkg-files.sh
+release.conf
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Build and package directories
+build/
+src/
+pkg/
+dist/
+*.tar.gz
+*.sha256
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+gitmanager/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment and dependency files
+.env
+venv/
+node_modules/
+
+.history/

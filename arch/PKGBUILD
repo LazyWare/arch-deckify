@@ -1,0 +1,16 @@
+pkgname=arch-deckify
+pkgver=0.2.1
+pkgrel=1
+pkgdesc="Package for arch-deckify"
+arch=('any')
+url='https://github.com/LazyWare/arch-deckify/archive/v0.2.1.tar.gz'
+license=('GPL 3.0')
+source=("arch-deckify-0.2.1.tar.gz::https://github.com/LazyWare/arch-deckify/archive/v0.2.1.tar.gz")
+sha256sums=('906baf64b227ae6d14b76532582036deb5b098f5d2b3575179f26e7b147ebefd')
+
+package() {
+  cd "$srcdir/arch-deckify-0.2.1"
+  install -Dm644 README.md "$pkgdir/usr/share/doc/arch-deckify/README.md"
+}
+
+# Maintainer: Any nyme <anonimo@vivaldi.net>

@@ -1,0 +1,11 @@
+pkgbase = arch-deckify
+	pkgdesc = Package for arch-deckify
+	pkgver = 0.2.1
+	pkgrel = 1
+	url = https://github.com/LazyWare/arch-deckify/archive/v0.2.1.tar.gz
+	arch = any
+	license = GPL 3.0
+	source = arch-deckify-0.2.1.tar.gz::https://github.com/LazyWare/arch-deckify/archive/v0.2.1.tar.gz
+	sha256sums = 906baf64b227ae6d14b76532582036deb5b098f5d2b3575179f26e7b147ebefd
+
+pkgname = arch-deckify
